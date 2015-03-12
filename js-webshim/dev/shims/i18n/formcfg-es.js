@@ -46,7 +46,7 @@ webshims.formcfg.es = {
 	},
 	date: {
 		closeText: 'Cerrar',
-		clear: 'Limpar',
+		clear: 'Limpiar',
 		prevText: '&#x3C;Ant',
 		nextText: 'Sig&#x3E;',
 		currentText: 'Hoy',
