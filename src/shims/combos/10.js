@@ -1234,7 +1234,7 @@ webshims.register('dom-extend', function($, webshims, window, document, undefine
 	
 })();
 });
-(function ($) {
+;(function($){
 	"use strict";
 
 	var isNumber = function(string){
@@ -1854,7 +1854,7 @@ webshims.register('dom-extend', function($, webshims, window, document, undefine
 		webshims.isReady('range-ui', true);
 	}
 })(window.webshims ? webshims.$ : jQuery);
-webshims.register('form-number-date-ui', function ($, webshims, window, document, undefined, options) {
+;webshims.register('form-number-date-ui', function($, webshims, window, document, undefined, options){
 	"use strict";
 	var curCfg;
 	var formcfg = webshims.formcfg;

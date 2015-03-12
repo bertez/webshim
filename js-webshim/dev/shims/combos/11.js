@@ -618,7 +618,7 @@
 		webshims.isReady('range-ui', true);
 	}
 })(window.webshims ? webshims.$ : jQuery);
-webshims.register('form-number-date-ui', function ($, webshims, window, document, undefined, options) {
+;webshims.register('form-number-date-ui', function($, webshims, window, document, undefined, options){
 	"use strict";
 	var curCfg;
 	var formcfg = webshims.formcfg;
